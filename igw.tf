@@ -1,4 +1,4 @@
 # Creating Internet Gateway
 resource "aws_internet_gateway" "demogateway" {
-  vpc_id = "vpc-0c79d010752c3005b"
+  vpc_id = "aws_vpc.demovpc.id"
 }
